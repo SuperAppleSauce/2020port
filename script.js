@@ -24,9 +24,9 @@ gsap.from("#section1Btn",{
 });
 
 
-timeline.from(".phaseTitle", 
+timeline.from(".projectDetails", 
 {
- y: 100,
+ x: -100,
   opacity: 0,
   // duration: 100
 
