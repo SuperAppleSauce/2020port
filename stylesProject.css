@@ -4,7 +4,7 @@
 cursor:pointer;
 
    position:fixed;
-  margin:12% 5%;
+  margin:10% 5%;
  right:0;
   bottom:0;
   z-index:12;
@@ -224,7 +224,8 @@ ol {
 }
 ol li {
   margin:30px 0 0 40px;
-  line-height: 25px;
+   line-height: 25px;
+  font-size: 1.25rem;
   counter-increment: my-awesome-counter;
 }
 ol li::before {
