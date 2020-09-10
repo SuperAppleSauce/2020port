@@ -51,7 +51,7 @@ ScrollTrigger.create({
   animation: timeline,
   // Uncomment these to see how they affect the ScrollTrigger
   markers: false,
-  start: "top center",
+  start: "top +100",
   end: "top top",
   scrub: true,
 
