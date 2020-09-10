@@ -232,7 +232,7 @@ ol li::before {
   content: counter(my-awesome-counter) ". ";
 position:absolute;
   left:0;
-  font-size:1rem;
+  font-size:1.5rem;
   font-weight: bold;
 }
 
