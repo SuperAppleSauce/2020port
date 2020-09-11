@@ -320,12 +320,10 @@ svg path {
   }
 
   .artifactImage {
-    width: 100%;
+    width: 100% !important;
+    height: auto;
   }
 
-  .artifactImageOld {
-    width: 100%;
-  }
 
   .projectPersonas {
   }
