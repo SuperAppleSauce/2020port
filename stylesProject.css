@@ -164,7 +164,7 @@ color: #FFC314;
   /*   background-color:tan; */
 }
 .artifactImage {
-  width: 100%;
+  width: 100% !important;
   margin: 70px 0px;
 /*   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2); */
 }
