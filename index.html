@@ -9,17 +9,19 @@
 
   <link rel="stylesheet" type="text/css" href="stylesHome.css">
 
-    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.7/webcomponents-loader.js"></script>
-  <script type="module" src="https://www.vectary.com/viewer/v1/scripts/vctr-viewer.js"></script>
 
 </head>
 
 <body class="body">
+
+<body>
+  <button ID="section1Btn"> back to top</button>
+
   <div class="landing">
     <h1 class="heading">Alexis <br>Trevizo</h1>
     <div class="text-block">Product Manager at Verizon, design enthusiast, and occasional 3D modeler.</div>
     <div class="bo">
-      <button class="button primary" style="margin-left:0%" ;>MY WORK</button>
+      <button id="workButton" class="button primary" style="margin-left:0%" ;>MY WORK</button>
       <a href="about.html" class="button ghost w-button">ABOUT</a>
     </div>
   </div>
@@ -52,67 +54,42 @@
 
     </div>
   </div>
-  </div>
 
   <div class="div-block-3">
     <h2 class="heading-2">Passion Projects</h2>
-    <p class="text-block">Here’s an incomplete showcase of the latest projects that have filled my free time.</p>
   </div>
 
-  <section class="personalP">
+  <section id="personalP">
 
-    <div class="personalL">
-      <div class="threeDee">
-        <img src="https://res.cloudinary.com/dxchcqxvt/image/upload/v1600962244/portfolio/VRAR/tbwH/ghosts_jq3ksa.png">
-      </div>
+    <div class="div-block-P">
 
-      <div class="pText">
-        <h3 class="heading-3">Shakespeare in virtual reality</h3>
-        <div class="text-block-5">In 2017, I spent nearly all of my free time working with a team to bring Hamlet into VR using live motion capture for the TriBeCa film festival in 2017. I specifically worked on the motion capture stream and lobby experience.
-          <a target=”_blank” href="https://www.facebook.com/tobewithhamlet/videos/635876099938492">Check out the video I made!</a>
+      <img class="threeDee" src="https://res.cloudinary.com/dxchcqxvt/image/upload/v1600965895/portfolio/VRAR/bananaARframe_xuvtez.jpg">
 
-        </div>
-      </div>
+      <h3 class="heading-3">AR onboarding gone bananas</h3>
+      <p class="text-block-5">An exploration around how to make an AR onboarding experience intuitive and fun!
+      </p>
+      <a target="_blank" href="https://www.figma.com/proto/HxUAaEylY806oIAYS5z1RmFh/AR-Exploration-Bananas-Onboarding?node-id=73%3A2&scaling=min-zoom">View my explorations</a>
 
     </div>
 
-    <div class="personalR">
-      <div class="threeDee">
-        <img src="https://res.cloudinary.com/dxchcqxvt/image/upload/v1600929107/portfolio/VRAR/hyper/hyper_mmexport1515005797408_q4eges.jpg">
-      </div>
+    <div class="div-block-P">
 
-      <div class="pText">
-        <h3 class="heading-3">HyperSpace VR</h3>
-        <div class="text-block-5">Following the 2017 TriBeCa premiere of To Be With Hamlet, I joined a small VR research team at NYU Shanghai. Our work primarily focused on using motion caption, VR, and pneumatic pistons to create theme park-like attractions. HyperSpace VR came from our shared love of Flim Cosmos. We wanted to transport guests across to the universe and witness the aw of the great beyond.
-          <a href="#">Images and videos coming soon!</a>
+      <img class="threeDee" src="https://res.cloudinary.com/dxchcqxvt/image/upload/v1600962244/portfolio/VRAR/tbwH/ghosts_jq3ksa.png">
 
-        </div>
-      </div>
+      <h3 class="heading-3">To Be With Hamlet</h3>
+      <p class="text-block-5">A live theatrical performance of Hamlet, streamable in VR. Featured at Tribeca Film Festival, 2017
+      </p>
+      <a target="_blank" href="https://hamletvr.org/">Visit the website</a>
 
     </div>
 
-    <div class="personalL">
-      <div class="threeDee">
-        <img src="https://res.cloudinary.com/dxchcqxvt/image/upload/v1600965895/portfolio/VRAR/bananaARframe_xuvtez.jpg">
-      </div>
+    <div class="div-block-P">
 
-      <div class="pText">
-        <h3 class="heading-3">Bananas AR</h3>
-        <div class="text-block-5">An ongoing concept of creating an entry-level experience to Augmented Reality. After taking lessons from what didn't work and what did work in my previous VR projects. I realized that the onboarding experience in a relatively new medium has to simple and ideally requires no external help/explanation. I also learned that collaborating in this space can be incredibly challenging. I found that a combination of Figma and Vectary's plugins can help with illustrating new concepts. <a href="https://www.figma.com/proto/HxUAaEylY806oIAYS5z1RmFh/AR-Exploration-Bananas-Onboarding?node-id=73%3A2&scaling=min-zoom">Click here to see the Figma prototype.</a></div>
-      </div>
+      <img class="threeDee" src="https://res.cloudinary.com/dxchcqxvt/image/upload/v1600929096/portfolio/VRAR/hyper_2_m6hfki.gif">
 
-    </div>
-
-    <div class="personalR">
-
-      <div class="threeDee">
-        <vctr-viewer id="modelViewer" model="acd76b4c-4cd4-42b7-a5ec-f0245f8bdded" enableApi="1" showInteractionPrompt="1" </vctr-viewer>
-      </div>
-
-      <div class="pText">
-        <h3 class="heading-3">Space + 3D Space</h3>
-        <div class="text-block-5">I'm a huge space exploration nerd. I recently started collaborating with the team at MIT Media Lab Space Exploration Initiative. I often use my love of 3D modeling to illustrate new ideas and concepts. If you want to see more of my models. <a href="#">CLICK HERE</a></div>
-      </div>
+      <h3 class="heading-3">Hyperspace VR</h3>
+      <p class="text-block-5">Using motion caption, VR, and pneumatic pistons we created a virtual ride that transported guests across the universe. Featured at the World Science Fair, Shanghai.</p>
+      <a target="_blank" href="https://vimeo.com/461612940">Watch the video</a>
 
     </div>
 
