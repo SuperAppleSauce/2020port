@@ -1,5 +1,7 @@
+gsap.registerPlugin(ScrollTrigger);
+
 document.getElementById("workButton").addEventListener("click", function () {
-  console.log("hola");
+  console.log("shwow me the work!");
   gsap.to(window, {
     duration: 1,
     ease: Expo.easeOut,
@@ -8,7 +10,7 @@ document.getElementById("workButton").addEventListener("click", function () {
 });
 
 document.getElementById("section1Btn").addEventListener("click", function () {
-  console.log("hola");
+  console.log("Back to top PLS");
   gsap.to(window, {
     duration: 1,
     ease: Expo.easeOut,
@@ -16,7 +18,7 @@ document.getElementById("section1Btn").addEventListener("click", function () {
   });
 });
 
-gsap.registerPlugin(ScrollTrigger);
+
 
 var timeline = gsap.timeline();
 gsap.from("#section1Btn", {

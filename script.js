@@ -8,6 +8,10 @@ document.querySelectorAll("button").forEach((btn) => {
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
+
+
 var timeline = gsap.timeline();
 
 gsap.from("#section1Btn",{
@@ -55,4 +59,11 @@ ScrollTrigger.create({
   end: "top top",
   scrub: true,
 
+});
+
+
+document.querySelectorAll("button").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    gsap.to(window, {duration: 1, ease:Expo.easeOut, scrollTo:{y:"#brand" , offsetY:70}});
+  });
 });
