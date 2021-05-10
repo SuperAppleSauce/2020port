@@ -366,7 +366,7 @@ body {
   .section{
      flex-wrap: wrap; 
   }
-  .div-block-P, .modal-content {
+  .div-block-P {
     margin-right: 0;
     margin-bottom: 30px;
     padding: 20px 30px;
@@ -409,4 +409,15 @@ text-decoration: none;
 
 
   }
+	.modal-content {
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    text-decoration: none;
+ 
+  }
+	
 }
