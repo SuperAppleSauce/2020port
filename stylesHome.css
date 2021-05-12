@@ -351,6 +351,9 @@ body {
 
   #section1Btn {
  
+ 
+ 
+ 
     margin: 12% 5%;
     right: 0;
     bottom: 0;
@@ -395,7 +398,7 @@ body {
     margin-bottom: 60px;
   }
 
-  .div-block-2 {
+  .div-block-2, .modal-content {
     margin-right: 0;
 margin-bottom: 30px;
 padding: 20px 30px;
@@ -409,15 +412,4 @@ text-decoration: none;
 
 
   }
-	.modal-content {
-    margin-right: 0;
-    margin-bottom: 30px;
-    padding: 20px 30px;
-    width: 80%;
-    height: 600px;
-    position: relative;
-    text-decoration: none;
- 
-  }
-	
 }
